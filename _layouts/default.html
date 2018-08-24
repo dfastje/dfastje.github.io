@@ -1,9 +1,33 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <title>
-            {{ page.title }}
-        </title>
-    </head>
+<head>
+    <title>{{ page.title }}</title>
+    <link rel="shortcut icon" href="\assets\favicon.png" type="image/x-icon">
+    <!-- link to main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
+<body>
+<div id="body">
+    <div id="header">
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+            </ul>
+        </nav>
+    </div><!--End header div -->
+    <div class="content">
+        {{ content }}
+    </div><!-- End content div -->
+</div><!-- End body div -->
+<div id="footer">
+    <footer>
+        <center>
+            <ul>
+
+            </ul>
+        </center>
+    </footer>
+</div><!-- End footer div-->
+</body>
 </html>
