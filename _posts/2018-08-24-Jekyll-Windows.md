@@ -3,12 +3,12 @@ layout: post
 title: "Jekyll on Windows" 
 date: 2018-08-24
 ---
-##Overview:  
+## Overview:  
 I want to install Jekyll on my machine as a step in setting up a local env for development of my github website.  
  Jekyll appears to be a webserver used to deploy apps built with Ruby 
  (I think this is akin to Tomcat and Maven in a Java stack)  
 
-##Steps with references:   
+## Steps with references:   
 Enabling linux subsystem on windows: https://docs.microsoft.com/en-us/windows/wsl/install-win10  
 Verifying ubuntu version (18.04): https://www.hostingadvice.com/how-to/ubuntu-show-version/  
 ```$xslt
