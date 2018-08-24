@@ -1,0 +1,172 @@
+html, body {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+#body{
+    margin: 5vh 15vh 0vh 15vh;
+    min-height: calc(100vh - 16vh);
+}
+#footer {
+    clear: both;
+    border-top: 1px solid #d5d5d5;
+    margin-top: 3em; 
+    font-size: 1em;
+    height: 9vh;   /* Height of the footer */
+}
+nav{
+    text-align: right;
+}
+nav ul, footer ul {
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+
+}
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+footer ul li{
+    display: inline;
+    text-align: left;
+}
+footer{
+    margin-left: 26%;
+    padding-top: 1vh;
+}
+footer img {
+    margin-right: 10%;
+}
+.content a {
+    text-decoration: underline;
+/*    color: #696969; */
+      color: #447b1b;
+}
+/*
+a:hover {
+    text-decoration: underline;
+}*/
+#welcome-header {
+    font-size: 3em;
+}
+.post-image{
+  display: block;
+  margin: auto;
+  width: 30%;
+}
+
+h2 {
+    border-bottom: 1px solid #333;
+}
+.h2-post{
+    border-bottom: 0px;
+}
+h1 {
+  padding-top: 1em;
+  padding-bottom: .5em;
+}
+p, ul li {
+    font-size: 1.1em;
+    line-height: 1.4em;
+    color: #333;
+}
+/*
+ul.posts {
+    markin: 20px auto 40px;
+    font-size: 1.5em;
+}
+*/
+#FountainPhoto {
+    width: 30%;
+    padding: 2%;
+    float: left;
+}
+.social-media-icon {
+    float: left;
+    padding-right: 2%;
+}
+
+.form-style-2{
+    max-width: 500px;
+    padding: 20px 12px 10px 20px;
+    font: 13px Arial, Helvetica, sans-serif;
+}
+.form-style-2-heading{
+    font-weight: bold;
+    font-style: italic;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+    font-size: 15px;
+    padding-bottom: 3px;
+}
+.form-style-2 label{
+    display: block;
+    margin: 0px 0px 15px 0px;
+}
+.form-style-2 label > span{
+    width: 100px;
+    font-weight: bold;
+    float: left;
+    padding-top: 8px;
+    padding-right: 5px;
+}
+.form-style-2 span.required{
+    color:red;
+}
+.form-style-2 .tel-number-field{
+    width: 40px;
+    text-align: center;
+}
+.form-style-2 input.input-field, .form-style-2 .select-field{
+    width: 48%; 
+}
+.form-style-2 input.input-field, 
+.form-style-2 .tel-number-field, 
+.form-style-2 .textarea-field, 
+ .form-style-2 .select-field{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #C2C2C2;
+    box-shadow: 1px 1px 4px #EBEBEB;
+    -moz-box-shadow: 1px 1px 4px #EBEBEB;
+    -webkit-box-shadow: 1px 1px 4px #EBEBEB;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    padding: 7px;
+    outline: none;
+}
+.form-style-2 .input-field:focus, 
+.form-style-2 .tel-number-field:focus, 
+.form-style-2 .textarea-field:focus,  
+.form-style-2 .select-field:focus{
+    border: 1px solid #0C0;
+}
+.form-style-2 .textarea-field{
+    height:100px;
+    width: 55%;
+}
+.form-style-2 input[type=submit],
+.form-style-2 input[type=button]{
+    border: none;
+    padding: 8px 15px 8px 15px;
+    background: #FF8500;
+    color: #fff;
+    box-shadow: 1px 1px 4px #DADADA;
+    -moz-box-shadow: 1px 1px 4px #DADADA;
+    -webkit-box-shadow: 1px 1px 4px #DADADA;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+.form-style-2 input[type=submit]:hover,
+.form-style-2 input[type=button]:hover{
+    background: #EA7B00;
+    color: #fff;
+}
+
