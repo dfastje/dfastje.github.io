@@ -22,5 +22,7 @@ source ~/.bashrc
 gem install bundler
 gem install jekyll
 ```
-Jekyll is now installed and I will need to use it to build and run my website locally for local testing before
- deploying code in the future 
+
+## Conclusion:
+Jekyll is now installed. Next, I will learn to use Ruby and Jekyll to build and run my website locally for local 
+testing before deploying code in the future. 
