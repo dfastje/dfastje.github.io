@@ -15,7 +15,7 @@ https://dzone.com/articles/run-simple-jar-application-in-docker-container-1
 https://hub.docker.com/_/openjdk/  
 https://www.youtube.com/watch?v=FlSup_eelYE  
   
-####Dockerfile added:
+#### Dockerfile added:
 ```$xslt
 FROM openjdk:8
 MAINTAINER DFastjeWork@gmail.com
@@ -24,7 +24,7 @@ COPY target/webappdemo-0.0.1-SNAPSHOT.jar app.jar
 ENTRYPOINT ["java", "-jar", "app.jar"]
 ```
 
-####pom.xml plugin added:
+#### pom.xml plugin added:
 ```$xslt
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
@@ -42,7 +42,7 @@ ENTRYPOINT ["java", "-jar", "app.jar"]
 </plugin>
 ```
   
-####Build and Run:
+#### Build and Run:
 ```$xslt
 docker build -f Dockerfile -t docker-example-webapp .
 docker images
