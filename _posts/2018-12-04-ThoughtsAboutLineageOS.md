@@ -14,6 +14,7 @@ First and foremost, the daily builds are both annoying and extremely nice!
         -Though, I have noticed lagging in similar places to before (like the maps app)
     4. I really like having access to the recovery media!
         I also like the openness of the update process! 
+
 ## Conclusions:
 I am strongly considering flashing the OS of my Pixel XL to LineageOS also!
     I would like to find the daily build logs for each release and what changes are in them! 
