@@ -10,15 +10,14 @@ Installing the OS now has 3 main parts (as far as I can tell)
 
 ## Steps with references:   
 
-#### References:
+####References:
 1. Primary reference: https://wiki.lineageos.org/devices/shamu/install
 2. https://dl.twrp.me/shamu/twrp-3.2.3-0-shamu.img.html
 3. https://download.lineageos.org/shamu
-4. https://wiki.lineageos.org/gapps.html  
+4. https://wiki.lineageos.org/gapps.html
 
-#### Steps:  
-
-##### Installing Recovery Software: 
+####Steps:
+#####Installing Recovery Software: 
 1. Connected nexus phone to computer and booted into fastboot mode  
 Note that this seems to be a temp thing on my device
 ```$xslt
@@ -28,7 +27,7 @@ sudo ./fastboot flash recovery twrp-3.2.3-0-shamu.img
 2. restart fastboot mode using reboot option then start recovery mode
 3. Backup the device's default stuff by following the instructions in TWRP
 
-##### Installing LineageOS and google apps:
+#####Installing LineageOS and google apps:
 From the TWRP recovery screen, I followed these steps 
 (several of these are taken directly from first reference):
 1. From third link, download the lineageos file. 
