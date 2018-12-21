@@ -1,7 +1,7 @@
 ---
 layout: post 
-title: "Building Game Timer for Android (pending completion)" 
-date: 2018-11-29
+title: "(pending completion) Building Game Timer for Android" 
+date: 2018-12-13
 ---
 ## Overview:  
 I would like to build a more complex android app now that I have gone through the process

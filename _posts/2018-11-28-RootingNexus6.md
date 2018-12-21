@@ -10,7 +10,7 @@ This post will be about unlocking the bootloader.
 
 ## Steps with references:   
 
-####Disclaimers:
+#### Disclaimers:
 First, I just followed the steps in this youtube video, 
     so all credit goes to wwjoshdew: https://www.youtube.com/watch?v=IEjynlQgJCI
  
@@ -20,7 +20,7 @@ Second, I have been learning to develop android apps recently
      
 Third, because the youtube video is pretty good quality, 
     I am just going to briefly outline the steps rather than give in-depth descriptions
-####Steps:
+#### Steps:
 1. Backup everything on the device I didn't want to lose
 2. Enable developer options by clicking on the "Build number" field multiple times.
     The path on my pixel xl phone is Settings -> System -> About phone
