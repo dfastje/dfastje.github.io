@@ -13,7 +13,7 @@ First and foremost, the daily builds are both annoying and extremely nice!
     3. The phone subjectively works better
         -Though, I have noticed lagging in similar places to before (like the maps app)
     4. I really like having access to the recovery media!
-        I also like the openness of the update process! 
+        -I also like the openness of the update process! 
 
 ## Conclusions:
 I am strongly considering flashing the OS of my Pixel XL to LineageOS also!
