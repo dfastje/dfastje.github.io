@@ -9,15 +9,15 @@ I would like to build a more complex android app now that I have gone through th
 
 ## Steps with references:   
 
-####References:
+#### References:
 1. Timers:
     https://docs.oracle.com/javase/7/docs/api/javax/swing/Timer.html
     https://stackoverflow.com/questions/14393423/how-to-make-a-countdown-timer-in-java
 2. https://stackoverflow.com/questions/5263563/linearlayout-findviewbyid-problem
 3. https://projectlombok.org/features/Builder
 
-####Steps:
-#####Timer code:
+#### Steps:
+##### Timer code:
 I was able to lift most of this code from a stack overflow page in the references.
     I will be modifying it a little bit once I finish building out the xml for timer 
     setup!
@@ -66,7 +66,7 @@ public class Player {
 }
 ```
 
-#####Timer code:
+##### Timer code:
 For this code, I wanted to limit the number of android concepts that I need to learn, 
     as to not derail the entire project with learning random things 
     (I want to complete this within a couple days).
@@ -74,7 +74,7 @@ For this code, I wanted to limit the number of android concepts that I need to l
 
 
 
-#####Random notes:
+##### Random notes:
 1. I couldn't get a "missing units" error to go away in the XML design page without restarting the IDE
 2. There seems to be a strange delay in loading changes in the java that are made in the XML, 
     but I don't see any pending background processes.
