@@ -5,7 +5,7 @@ title: Bugs
 <h1>{{ page.title }}</h1>
 <ul class="bug">
 
-    {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+    {% for bug in site.creepy-crawlers %}
+    <li><span>{{ bug.date | date_to_string }}</span> » <a href="{{ bug.url }}" title="{{ bug.title }}">{{ bug.title }}</a></li>
     {% endfor %}
 </ul>
