@@ -35,7 +35,7 @@ sitemap:
 
   <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
 
-  {% for bug in site.creepy-crawlers %}
+  {% for bug in site.bugs %}
   {% unless bug.published == false %}
   <url>
     <loc>{{ site.url }}{{ bug.url }}</loc>
