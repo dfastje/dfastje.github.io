@@ -2,10 +2,10 @@
 layout: default
 title: Bugs
 ---
-<h1>{{ page.title }}</h1>
-<ul class="bugs">
+    <h1>{{ page.title }}</h1>
+    <ul class="bugs">
 
-    {% for bug in site.bugs %}
-    <li><span>{{ bug.date | date_to_string }}</span> » <a href="{{ bug.url }}" title="{{ bug.title }}">{{ bug.title }}</a></li>
-    {% endfor %}
-</ul>
+      {% for bug in site.bugs %}
+        <li><span>{{ bug.date | date_to_string }}</span> » <a href="{{ bug.url }}" title="{{ bug.title }}">{{ bug.title }}</a></li>
+      {% endfor %}
+    </ul>
