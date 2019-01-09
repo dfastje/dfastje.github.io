@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: "Setting Up Dev Machine Running Ubuntu" 
-date: 2018-1-08
+date: 2019-1-08
 ---
 ## Overview:  
 I am tired of switching cords between my desktop and my laptop whenever I want to do any programming,
