@@ -6,7 +6,7 @@ title: Bugs
 
 <ul class="bugs">
 
-    {% for bug in site.posts %}
+    {% for bug in site.bugs %}
     <li><span>{{ bug.date | date_to_string }}</span> » <a href="{{ bug.url }}" title="{{ bug.title }}">{{ bug.title
         }}</a></li>
     {% endfor %}
