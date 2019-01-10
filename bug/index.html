@@ -6,8 +6,8 @@ title: Bugs
 
 <ul class="bugs">
 
-    {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title
+    {% for bug in site.posts %}
+    <li><span>{{ bug.date | date_to_string }}</span> » <a href="{{ bug.url }}" title="{{ bug.title }}">{{ bug.title
         }}</a></li>
     {% endfor %}
 </ul>
