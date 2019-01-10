@@ -35,33 +35,6 @@ sitemap:
 
   <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
 
-  {% for bug in site.bugs %}
-  {% unless bug.published == false %}
-  <url>
-    <loc>{{ site.url }}{{ bug.url }}</loc>
-    {% if bug.sitemap.lastmod %}
-    <lastmod>{{ bug.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
-    {% elsif bug.date %}
-    <lastmod>{{ bug.date | date_to_xmlschema }}</lastmod>
-    {% else %}
-    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-    {% endif %}
-    {% if bug.sitemap.changefreq %}
-    <changefreq>{{ bug.sitemap.changefreq }}</changefreq>
-    {% else %}
-    <changefreq>monthly</changefreq>
-    {% endif %}
-    {% if bug.sitemap.priority %}
-    <priority>{{ bug.sitemap.priority }}</priority>
-    {% else %}
-    <priority>0.5</priority>
-    {% endif %}
-  </url>
-  {% endunless %}
-  {% endfor %}
-
-  <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
-
   {% for page in site.pages %}
     {% unless page.sitemap.exclude == "yes" %}
     <url>
