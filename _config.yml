@@ -1,5 +1,5 @@
 name: David Fastje
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+permalink: /:year/:month/:day/:title
 theme: jekyll-theme-cayman
 
